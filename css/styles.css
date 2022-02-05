@@ -1,0 +1,216 @@
+:root {
+  --primary-font-family: "Roboto", sans-serif;
+  --secondary-font-family: "Raleway", sans-serif;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --tertiary-text-color: #ffffff;
+  --primary-text-color-logo: #2196f3;
+  --secondary-text-color-logo-header: #000000;
+  --secondary-text-color-logo-footer: #ffffff;
+  --text-color-footer: rgba(255, 255, 255, 0.6);
+  --accent-color: #2196f3;
+  --background-basic: #ffffff;
+  --background-primary: #2f303a;
+  --background-secondary: #f5f4fa;
+  --background-accent: #188ce8;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+body {
+  font-family: var(--primary-font-family);
+  background-color: var(--background-basic);
+  color: var(--primary-text-color);
+}
+/* ==== begin header ==== */
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-title {
+  color: var(--primary-text-color-logo);
+}
+.logo-title-header {
+  color: var(--secondary-text-color-logo-header);
+}
+.logo-title-footer {
+  color: var(--secondary-text-color-logo-footer);
+}
+.nav-link {
+  /* font-family: Roboto; */
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+.nav-link-contact {
+  /* font-family: Roboto; */
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+.nav-link-contact:hover,
+.nav-link-contact:focus {
+  color: var(--accent-color);
+}
+/* ===== end header ==== */
+
+/* ==== begin section hero ==== */
+.hero {
+  background-color: var(--background-primary);
+}
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--tertiary-text-color);
+}
+.btn-order-service {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--tertiary-text-color);
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.btn-order-service:hover {
+  background: var(--background-accent);
+}
+/* ==== end section hero ==== */
+
+/* ==== begin section description ==== */
+.description-title {
+  /* font-family: Roboto; */
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+.description-text {
+  /* font-family: Roboto; */
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+/* ==== enв section description ==== */
+
+/* ==== begin section we-are-doing ==== */
+.title-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+/* ==== end section we-are-doing ==== */
+
+/* ==== begin section our-team ==== */
+.our-team {
+  background-color: var(--background-secondary);
+}
+.member-team {
+  background-color: var(--background-basic);
+}
+
+.name-member-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.position-member-team {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+/* ==== end section our-team ==== */
+
+/* ==== begin footer ==== */
+.footer {
+  background-color: var(--background-primary);
+}
+
+.addres {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.addres-addres {
+  color: var(--tertiary-text-color);
+}
+.addres-contact {
+  color: var(--text-color-footer);
+}
+.addres:hover,
+.addres:focus {
+  color: var(--accent-color);
+}
+/* ==== end footer ==== */
+
+/* ==== begin section portfolio ==== */
+.btn-filter {
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: var(--background-secondary);
+}
+.btn-filter:hover,
+.btn-filter:focus {
+  background-color: var(--accent-color);
+  color: var(--tertiary-text-color);
+}
+.title-projct {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+.section-filter {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+/* ==== end section portfolio ==== */

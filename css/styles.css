@@ -4,12 +4,9 @@
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --tertiary-text-color: #ffffff;
-  --primary-text-color-logo: #2196f3;
   --secondary-text-color-logo-header: #000000;
-  --secondary-text-color-logo-footer: #ffffff;
   --text-color-footer: rgba(255, 255, 255, 0.6);
   --accent-color: #2196f3;
-  --background-basic: #ffffff;
   --background-primary: #2f303a;
   --background-secondary: #f5f4fa;
   --background-accent: #188ce8;
@@ -24,7 +21,7 @@
 }
 body {
   font-family: var(--primary-font-family);
-  background-color: var(--background-basic);
+  background-color: var(--tertiary-text-color);
   color: var(--primary-text-color);
 }
 /* ==== begin header ==== */
@@ -36,13 +33,13 @@ body {
   letter-spacing: 0.03em;
 }
 .logo-title {
-  color: var(--primary-text-color-logo);
+  color: var(--accent-color);
 }
 .logo-title-header {
   color: var(--secondary-text-color-logo-header);
 }
 .logo-title-footer {
-  color: var(--secondary-text-color-logo-footer);
+  color: var(--tertiary-text-color);
 }
 .nav-link {
   /* font-family: Roboto; */
@@ -52,7 +49,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-
+.nav .current {
+  color: var(--accent-color);
+}
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-color);
@@ -139,7 +138,7 @@ body {
   background-color: var(--background-secondary);
 }
 .member-team {
-  background-color: var(--background-basic);
+  background-color: var(--tertiary-text-color);
 }
 
 .name-member-team {
